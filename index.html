@@ -1,18 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artiste peintre</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-  <h1>accueil</h1>
-  <h2>Voici mes tableaux</h2>
-  
-  <a href="contact.html">Contact-moi</a>
 
-  <script src="app.js"></script>
+<body>
+  <nav>
+    <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
+      <img src="assets/image/logo1.png" alt="logo">
+      <span></span>
+    </a>
+    <div class="main-navlinks">
+      <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navlinks-container">
+        <a href="index.html">Accueil</a>
+        <a href="painting.html">Œuvres originales</a>
+        <a href="actu.html">Actu</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <h1>Christine DUQUESNE</h1>
+  <h2>Artiste peintre</h2>
+  <section class="paint">
+  </section>
+  <h2>Bienvenue, et merci de votre intérêt.</h2>
+  <div class="container">
+    <section class="about">
+      <div class="main">
+        <img src="../assets/image/profile C-D.jpg">
+        <div class="about-text">
+          <p>Christine DUQUESNE est artiste peintre autodidacte.
+            À travers sa peinture transparait ses thèmes de prédilection tels que la NATURE,
+            et la place que l’HOMME y occupe. L’harmonie n’est toujours pas de mise entre ces deux éléments.
+            L’optimisme nous laisse entrevoir un avenir serein, plus tard…</p>
+          <p>Christine DUQUESNE nous propose des histoires, autrement.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="card-p" style="width: 35rem;">
+      <div class="card-body">
+        <h4 class="card-title">Un p’tit mot sur moi.</h4>
+        <p class="card-material">Artiste autodidacte, je n’ai aucune référence de grande école d’art.
+          Mes œuvres sont le reflet de mes préoccupations, de mes espoirs, de mes états d’âme.
+          Faute de pouvoir les exprimer de façon intelligible, j’opte pour l’harmonie des couleurs.</p>
+      </div>
+    </div>
+    <div class="card-p" style="width: 35rem;">
+      <div class="card-body">
+        <h4 class="card-title">Les outils.</h4>
+        <p class="card-material">J’aime détourner les objets de leur fonction première,
+          et m’évader avec tout ce qui me passe par la main. Quel plaisir procuré par
+          la nouveauté et la surprise qui s’en dégagent.</p>
+      </div>
+    </div>
+    <div class="card-p" style="width: 35rem;">
+      <div class="card-body">
+        <h4 class="card-title">Mon souhait.</h4>
+        <p class="card-material">Ces toiles sont une invitation à l’évasion, à la rêverie.
+          Que chacun.e y décrypte une histoire, et se fasse son petit film…</p>
+      </div>
+    </div>
+    <div class="card-p" style="width: 35rem;">
+      <div class="card-body">
+        <h4 class="card-title">Infos pratiques.</h4>
+        <p class="card-material">Les œuvres peuvent être livrée chez vous*, gracieusement.
+          Pour éviter une éventuelle dégradation, mais aussi pour photographier l’œuvre dans son nouvel intérieur.
+          Si vous le souhaitez, la photo pourra être publiée sur ce site.</p> <br>
+        <p>*Sous réserve d’un périmètre de moins de 100 kilomètres de LILLE, FRANCE.</p>
+      </div>
+    </div>
+  </div>
+  <h2>Bonne visite !</h2>
+  <section>
+    <h3>Nouvelles œuvres originales</h3>
+    <div class="container">
+      <div class="card-acceuil" style="width: 18rem;">
+        <img src="assets/image/time.jpg" class="acceuil-img" alt="...">
+      </div>
+      <div class="card-acceuil" style="width: 18rem;">
+        <img src="assets/image/Baby guitare.jpg" class="acceuil-img" alt="...">
+      </div>
+      <div class="card-acceuil" style="width: 18rem;">
+        <img src="assets/image/Ouvrir l'oeil.jpg" class="acceuil-img" alt="...">
+      </div>
+      <div class="card-acceuil" style="width: 18rem;">
+        <img src="assets/image/Non mais dites!.jpg" class="acceuil-img" alt="...">
+      </div>
+    </div>
+  </section>
+  <div class="footer-basic">
+    <footer>
+      <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="https://www.facebook.com/DUQUESNEARTISTEPEINTRE"><i class="icon ion-social-facebook"></i></a></div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="index.html">Accueil</a></li>
+        <li class="list-inline-item"><a href="painting.html">Œuvres originales</a></li>
+        <li class="list-inline-item"><a href="actu.html">Actu</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="copyright">Copyright 2023 Christine Dusquesne - <a href="mailto:duquesne.peintre@gmail.com">duquesne.peintre@gmail.com</a> </p>
+    </footer>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
