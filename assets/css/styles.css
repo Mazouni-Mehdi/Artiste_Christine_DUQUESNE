@@ -363,6 +363,18 @@ h2 {
   margin-bottom: 45px;
 }
 
+/*.about {
+  width: 1550px;
+}*/
+
+.about p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
 .main {
   width: 1130px;
   max-width: 95%;
@@ -404,13 +416,13 @@ h2 {
 }
 
 p.card-price {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 16px;
+  /*font-weight: bold;*/
 }
 
 h5 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 16px;
+  /*font-weight: bold;*/
 }
 
 div .card-body p {
@@ -533,7 +545,7 @@ div.container1 {
 
 .btn {
   color: white;
-  background:#333;
+  background: #333;
   margin-top: 20px;
 }
 
@@ -601,10 +613,10 @@ h6 {
   color: #333;
 }
 
-.card-contact,
+/*.card-contact,
 h1 {
   color: white;
-}
+}*/
 
 form {
   max-width: 600px;
