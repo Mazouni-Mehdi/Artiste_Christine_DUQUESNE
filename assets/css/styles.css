@@ -233,9 +233,6 @@ a.sign-user {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /*margin: 30px 50px;*/
-  /*min-height: auto;*/
-  /*background: #5DD39E;*/
 }
 
 .form {
@@ -300,19 +297,6 @@ a.sign-user {
   text-align: center;
 }
 
-/*.card-contact {
-  float: center;
-  color: white;
-  background: #333;
-  text-align: center;
-  margin: 20px;
-  border: #333 solid 1px;
-}*/
-
-/*img {
-  width: 30px;
-}*/
-
 h1 {
   font-family: 'playfair display', monospace, serif;
   color: #333;
@@ -369,6 +353,14 @@ h2 {
 
 .about p {
   color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.about-A p {
+  text-align: center;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -520,7 +512,13 @@ a {
 }
 
 li {
-  margin: 10px;
+  margin: 30px;
+}
+
+.main li {
+  font-size: 25px;
+  /*padding-bottom: 5px;*/
+  text-decoration: none;
 }
 
 embed {
@@ -535,13 +533,13 @@ label {
     sans-serif;
 }
 
-div.container1 {
+/*div.container1 {
   max-width: 900px auto;
   margin: 50px;
   padding: 5%;
   border-radius: 50px;
-  background-color: rgb(128,124,123);
-}
+  background-color: rgb(128, 124, 123);
+}*/
 
 .btn {
   color: white;
@@ -604,6 +602,7 @@ a:hover {
 
 a.contact {
   color: black;
+  font-size: 25px;
 }
 
 .card-contact,
@@ -613,25 +612,18 @@ h6 {
   color: #333;
 }
 
-/*.card-contact,
-h1 {
-  color: white;
-}*/
-
 form {
-  max-width: 600px;
+  max-width: 800px;
   background: #aaa;
   margin: 20px;
   padding: 60px;
   border-radius: 10px;
 }
 
-/*form {
-  margin: 0 auto;
-  text-align: left;
-  padding: 50px 0;
-}*/
-
 i {
   color: #333;
+}
+
+li {
+  text-decoration: none;
 }
