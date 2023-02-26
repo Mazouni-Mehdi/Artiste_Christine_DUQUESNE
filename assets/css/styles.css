@@ -533,13 +533,13 @@ label {
     sans-serif;
 }
 
-/*div.container1 {
+div.container1 {
   max-width: 900px auto;
   margin: 50px;
   padding: 5%;
   border-radius: 50px;
   background-color: rgb(128, 124, 123);
-}*/
+}
 
 .btn {
   color: white;
