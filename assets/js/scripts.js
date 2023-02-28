@@ -22,22 +22,22 @@ new ResizeObserver(entries => {
 }).observe(document.body);
 
 
-// Barre de recherche dynamique //
-const searchBar = document.querySelector("#searchbar");
+// Barre de recherche dynamique
+//const searchBar = document.querySelector("#searchbar");
 
-searchBar.addEventListener("keyup", (e) => {
-  const searchedLetters = e.target.value;
-  const cards = document.querySelectorAll(".card");
-  filterElements(searchedLetters, cards);
-});
+//searchBar.addEventListener("keyup", (e) => {
+  //const searchedLetters = e.target.value;
+  //const cards = document.querySelectorAll(".card");
+  //filterElements(searchedLetters, cards);
+//});
 
-function filterElements(letters, elements) {
-  for (let i = 0; i < elements.length; i++) {
-    if (elements[i].textContent.toLowerCase().includes(letters)) {
-      elements[i].style.display = "block";
-    } else {
-      elements[i].style.display = "none";
-    }
-  }
-}
+//function filterElements(letters, elements) {
+//  for (let i = 0; i < elements.length; i++) {
+//    if (elements[i].textContent.toLowerCase().includes(letters)) {
+//      elements[i].style.display = "block";
+//    } else {
+//      elements[i].style.display = "none";
+//    }
+//  }
+//}
 
