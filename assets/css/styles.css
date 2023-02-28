@@ -216,7 +216,7 @@ nav {
 
 @media (max-width: 500px) {
   .nav-icon img {
-    width: 30px;
+    width: 60px;
   }
 
   .nav-icon span {
