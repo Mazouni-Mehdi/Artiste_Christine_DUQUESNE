@@ -226,6 +226,10 @@ nav {
   .nav-icon span {
     font-size: 20px;
   }
+
+  .main li {
+    font-size: 15px;
+  }
 }
 
 a.sign-user {
@@ -233,6 +237,13 @@ a.sign-user {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container1 {
   display: flex;
   justify-content: center;
   align-items: center;
