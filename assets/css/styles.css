@@ -550,7 +550,7 @@ label {
 }
 
 div.container1 {
-  max-width: 900px auto;
+  max-width: auto;
   margin: 50px;
   padding: 5%;
   border-radius: 50px;
